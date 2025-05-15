@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><span>Brian Dulla</span></a>
+
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+    <a href="https://github.com/" target="_blank">
+      <button class="visit-btn">Visit Github</button>
+    </a>
+  </header>
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <img src="image.png" alt="" />
+
+      <div class="info-box">
+        <div class="text">
+          <h3> Hi, I'm</h3>
+          <h1>Brian Dulla</h1>
+          <span data-text="An Aspiring Web Designer">An Aspiring Web Designer</span>
+        </div>
+
+        <div class="btn-group">
+          <a href="Images/Brian Dulla CV.pdf" download>
+            <div class="btn">Download CV</div>
+          </a>
+
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://github.com/briandulla" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/brian-dulla-479158302/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="experience-info">
+      <div class="grid">
+        <div class="grid-card">
+          <i class="fas fa-video"></i>
+          <span>CCTV Operator</span>
+          <h3>1 Year and 8 Months</h3>
+          <p>
+            Monitored live and recorded CCTV footage in multiple Public Economic Zones and the Head Office to ensure safety, security, and compliance.
+          </p>
+        </div>
+        <div class="grid-card">
+          <i class="fas fa-file-alt"></i>
+          <span>Clerk</span>
+          <h3>1 Year and 8 Months</h3>
+          <p>
+            Managed administrative tasks such as drafting memos, coordinating schedules, and responding promptly to inquiries to support smooth daily operations.
+          </p>
+        </div>
+        <div class="grid-card">
+          <i class="fas fa-chart-bar"></i>
+          <span>Data Analyst</span>
+          <h3>5 Months</h3>
+          <p>
+            Cleaned and analyzed data on the movement of goods, created dashboards, and prepared monthly analytical reports for management.
+          </p>
+        </div>
+        <div class="grid-card">
+          <i class="fas fa-tasks"></i>
+          <span>Strategic Planning Assistant</span>
+          <h3>3 Months</h3>
+          <p>
+            Assisted in developing strategic plans aimed at enhancing surveillance protocols and improving internal security measures for 2025.
+          </p>
+        </div>
+      </div>
+
+      <img src="image.png" alt="" />
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="projects-card">
+        <img src="project-1.PNG" alt="" loading="lazy" />
+        <h3>Bubble Tea Tea</h3>
+        <p>
+          Bubble Tea Tea is your go-to digital café—refreshing, cozy, and crafted for bubble tea lovers everywhere.
+        </p>
+      </div>
+
+      <div class="projects-card">
+        <img src="project-2.png" alt="" loading="lazy" />
+        <h3>To-do List Tracker App</h3>
+        <p>
+          The To-Do List Tracker App helps you organize tasks with ease—keeping you on track every day.
+        </p>
+      </div>
+
+      <div class="projects-card">
+        <img src="project-3.jpeg" alt="" loading="lazy" />
+        <h3>E-Learning</h3>
+        <p>
+          E-learning makes education flexible, affordable, and within reach—it is the future of education.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cleaned Contact Section -->
+  <section class="contact" id="contact">
+    <div class="input-box">
+      <h2 class="section-title">Contact Me</h2>
+
+      <form>
+        <div class="input">
+          <input type="email" placeholder="example@gmail.com" required />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <p class="copyright">© All Rights Reserved | Brian Dulla</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
